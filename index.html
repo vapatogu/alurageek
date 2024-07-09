@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Productos</title>
+  </head>
+  <body>
+    <header class="header">
+      <picture class="logo">
+        <img
+          width="128px"
+          height="56px"
+          src="./assets/logo-header.png"
+          alt=""
+          class="logo_image"
+        />
+        <p class="logo_title">AluraGeek</p>
+      </picture>
+    </header>
+    <main class="main">
+      <article class="products_box">
+        <p class="products_title">Mis productos:</p>
+        <div class="products_container" id="productsContainer"></div>
+      </article>
+      <article class="form_box">
+        <p class="form_title">Agregar producto:</p>
+        <form class="form_container" id="formProduct">
+          <input
+            autocomplete="off"
+            class="input_form"
+            id="nombre"
+            placeholder="Nombre..."
+            type="text"
+            required
+          />
+          <input
+            autocomplete="off"
+            class="input_form"
+            id="precio"
+            placeholder="Precio..."
+            type="text"
+            required
+          />
+          <input
+            autocomplete="off"
+            class="input_form"
+            id="imagen"
+            placeholder="Imagen..."
+            type="text"
+            required
+          />
+          <div class="form_buttons">
+            <button class="send_button">Enviar</button>
+            <button type="button" class="clean_button" id="clearButton">
+              Limpiar
+            </button>
+          </div>
+        </form>
+      </article>
+    </main>
+    <footer class="footer">
+      <picture class="logo">
+        <img
+          width="128px"
+          height="56px"
+          src="./assets/logo-header.png"
+          alt=""
+          class="logo_image"
+        />
+        <p class="logo_title">AluraGeek</p>
+      </picture>
+      <p class="developed_with">Desarollado por Vanessa Torres</p>
+      <p class="copyright">Alura Latam- 2024</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
